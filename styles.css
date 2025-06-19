@@ -52,11 +52,14 @@ header {
     font-size: 1rem;
 }
 
-.styled-button {
+.principal-button {
+    padding: 1rem 1rem;
     font-size: 1.1rem;
-    font-weight: bold;
+    width: 100%;
+    max-width: 170px;
+    background-color: var(--terceary-color);
     color: var(--quinto-color);
-    background: var(--terceary-color);
+    border: none;
     border-radius: 30px;
     cursor: pointer;
     border: none;
@@ -73,7 +76,7 @@ header {
     gap: 10px;
     width: 100%;
     max-width: 1700px;
-    height: 80vh;
+    height: 85vh;
     margin: auto;
 }
 
