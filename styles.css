@@ -194,6 +194,12 @@ header {
     padding: 1rem;
 }
 
+#third-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .care-section {
     width: 90%;
     height: 80vh;
