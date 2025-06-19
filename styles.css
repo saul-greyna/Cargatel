@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Sen', sans-serif;
-    font-size: clamp(14px, 1.5vw, 18px);
+    font-size: clamp(14px, 1.5vw, 17px);
 }
 
 :root {
@@ -56,7 +56,8 @@ header {
     padding: 1rem 1rem;
     font-size: 1.1rem;
     width: 100%;
-    max-width: 170px;
+    min-width: 160px;
+    max-width: 235px;
     background-color: var(--terceary-color);
     color: var(--quinto-color);
     border: none;
@@ -170,16 +171,18 @@ header {
 
 #second-section {
     width: 100%;
+    max-width: 1700px;
+    height: 50vh;
     min-width: 5vw;
-    max-width: 100vw;
-    height: auto;
     min-height: 20em;
     max-height: 100vh;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 .second-subtitle {
@@ -191,25 +194,28 @@ header {
 .second-text {
     font-size: clamp(.9rem, 2.2vw, 3.5rem);
     color: var(--terceary-color);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #third-section {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 1900px;
+    height: 90vh;
+    margin: auto;
 }
 
 .care-section {
     width: 90%;
     height: 80vh;
-    background-image: url('img/WhatsApp\ Image\ 2025-06-14\ at\ 11.04.18_c7f1f531.jpg');
+    background-image: url('resources/img/IMG-20250614-WA0015.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0;
     box-sizing: border-box;
     border-radius: 30px;
     overflow: hidden;
