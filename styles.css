@@ -15,8 +15,8 @@
     --terceary-color-liquid-glass: rgba(28, 52, 98, 0.5);
     --cuerto-color: #8f956e;
     --cuerto-color-liquid-glass: rgba(143, 149, 110, 0.5);
-    --quinto-color: #a5afc1;
-    --quinto-color-liquid-glass: rgba(165, 175, 193, 0.966);
+    --quinto-color: #eeeeee;
+    --quinto-color-liquid-glass: rgba(238,238,238, 0.966);
 }
 
 header {
@@ -296,7 +296,7 @@ header {
     height: 440px;
     backdrop-filter: blur(0px) saturate(200%);
     -webkit-backdrop-filter: blur(0px) saturate(200%);
-    background-color: rgba(165, 175, 193, 0.75);
+    background-color: rgba(238, 238, 238, 0.75);
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.125);
     position: relative;
@@ -305,7 +305,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-/*     min-width: 50px;
+    /*     min-width: 50px;
     max-width: 350px; */
     /*     min-height: 500px;
     max-height: 800px; */
@@ -330,6 +330,6 @@ header {
     font-size: 1rem;
     padding: 0.5rem;
     color: var(--terceary-color);
-/*     min-height: 100px;
+    /*     min-height: 100px;
     max-height: 200px; */
 }
